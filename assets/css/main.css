@@ -1302,3 +1302,17 @@ section,
     border: 2px solid;
         border-radius: 100px;
 }
+
+#send-btn {
+    padding: 10px 40px !important;
+    background: blue !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+#send-btn:hover {
+    background: gray !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
